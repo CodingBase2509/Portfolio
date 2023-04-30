@@ -1,5 +1,5 @@
 export default interface NavigationItem {
-    name: string,
-    link: string,
-    position: number
+  name: string;
+  link: string;
+  position: number;
 }
