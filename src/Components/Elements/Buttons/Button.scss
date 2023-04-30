@@ -1,0 +1,18 @@
+@import "/src/variables.scss";
+
+.button-default {
+    border-radius: 12px;
+    padding: .75rem 2rem;
+    font-weight: bolder;
+}
+
+.button-filled {
+    background-color: $primary;
+    color: $black;
+}
+
+.button-outlined {
+    border: 2px solid $primary;
+    color: $primary;
+    background-color: transparent;
+}
