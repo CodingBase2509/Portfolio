@@ -1,7 +1,7 @@
+import { FullChildParameter } from "../../../contracts/Parameter";
 import "./Header.scss";
-import { TextParameter } from "../../../contracts/Parameter";
 
-const SecondaryHeader = ({ className, children }: TextParameter) => {
+const SecondaryHeader = ({ className, children }: FullChildParameter) => {
   return <h3 className={className + " " + "header-sec"}>{children}</h3>;
 };
 
