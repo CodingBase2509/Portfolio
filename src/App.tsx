@@ -3,7 +3,7 @@ import viteLogo from "/vite.svg";
 import "./App.scss";
 
 import { useState } from "react";
-import Header from "./shared/Header/Header";
+import Header from "./Components/Sections/Header/Header";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div>
+      <main>
         <div className="App">
           <div>
             <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
@@ -144,7 +144,7 @@ const App = () => {
             Click on the Vite and React logos to learn more
           </p>
         </div>
-      </div>
+      </main>
     </>
   );
 };
