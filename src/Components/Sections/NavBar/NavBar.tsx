@@ -1,6 +1,6 @@
 import "./NavBar.scss";
 
-import NavigationItem from "../../contracts/NavigationItem";
+import NavigationItem from "../../../contracts/NavigationItem";
 
 const NavBar = ({
   navItems,
