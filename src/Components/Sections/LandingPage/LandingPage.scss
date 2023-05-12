@@ -47,7 +47,8 @@ article {
 }
 
 
-@media #{$media-tablet}, #{media-phone} {
+@media #{$media-tablet} {
+
     .landing-page {
         display: grid;
         grid-template-columns: auto auto;
@@ -91,6 +92,34 @@ article {
 
         button {
             width: 40%;
+        }
+    }
+}
+
+@media #{$media-phone} {
+    .landing-page {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "picture" "header" "text" "buttons";
+        row-gap: 1rem;
+        column-gap: 0;
+    }
+
+    .profile {
+        width: 80vw !important;
+        height: 80vw !important;
+    }
+
+    .name-header {
+        width: max-content;
+    }
+
+    .buttons {
+        flex-direction: column;
+
+        button {
+            margin: .5rem 0;
+            width: 100%;
         }
     }
 }
