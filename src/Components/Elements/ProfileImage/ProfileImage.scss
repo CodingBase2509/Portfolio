@@ -1,0 +1,20 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40vw;
+    width: 40vw;
+    
+    overflow: hidden;
+
+    border-radius: 50%;
+    background: #222222;
+    box-shadow: inset 5px 5px 20px 10px #1D1C1C;
+}
+
+.profile-image {
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+}

@@ -1,11 +1,11 @@
 @import "/src/variables.scss";
 
 .mainpage {
-  margin: 2rem 5rem;
+  margin: 3rem 5rem;
 }
 
 @media #{$media-tablet} {
   .mainpage {
-    margin: 2rem 2rem;
+    margin: 3rem 2rem;
   }
 }

@@ -1,5 +1,41 @@
 @import "/src/variables.scss";
 
-.wellcome-name {
-    width: 120%;
+.landing-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10;
+}
+
+.content {
+    width: 50%;
+    
+    .name-header {
+        .wellcome-name {
+            font-weight: 600 !important;
+            font-size: 3rem;
+        }
+        
+        .job-title {
+            font-weight: 500 !important;
+        }    
+    }
+
+    article {
+        margin: 4rem 0;
+        line-height: 1.75;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        button {
+            width: 12rem;
+            height: 3rem;
+        }
+    }
 }

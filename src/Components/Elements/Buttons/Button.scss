@@ -1,14 +1,16 @@
 @import "/src/variables.scss";
 
 .button-default {
-    border-radius: 12px;
+    border-radius: 8px;
     padding: .75rem 2rem;
-    font-weight: bolder;
+    font-weight: 500;
+    font-size: large;
 }
 
 .button-filled {
     background-color: $primary;
     color: $black;
+    border: none;
 }
 
 .button-outlined {
