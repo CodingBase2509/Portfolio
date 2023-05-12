@@ -53,14 +53,17 @@
   }
 
   .nav-menu.open {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     position: fixed;
     top: 0;
+    width: 50%;
+    @media #{$media-phone} {
+      width: 100%;
+    }
 
-    width: 100%;
     ul {
       flex-direction: column;
+      width: auto;
     }
   }
   
