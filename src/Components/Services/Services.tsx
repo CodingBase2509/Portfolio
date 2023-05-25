@@ -2,7 +2,7 @@ import "./Services.scss";
 import { BaseParameter } from "../../contracts/Parameter";
 
 const Services = ({ className }: BaseParameter) => {
-  return <></>;
+  return <section></section>;
 };
 
 export default Services;

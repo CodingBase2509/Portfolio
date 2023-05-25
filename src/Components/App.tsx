@@ -1,7 +1,7 @@
 import "./App.scss";
 
-import Header from "./Components/Header/Header";
-import LandingPage from "./Components/LandingPage/LandingPage";
+import Header from "./Header/Header";
+import LandingPage from "./LandingPage/LandingPage";
 
 const App = () => {
   return (
