@@ -1,4 +1,4 @@
-import NavigationItem from "../contracts/NavigationItem";
+import NavigationItem from "../Contracts/NavigationItem";
 
 export const navItems: Array<NavigationItem> = [
   {

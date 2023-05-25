@@ -1,6 +1,6 @@
 import profile from "/profile.svg";
 import "./ProfileImage.scss";
-import { BaseParameter } from "../../../contracts/Parameter";
+import { BaseParameter } from "../../../Contracts/Parameter";
 
 const ProfileImage = ({ className }: BaseParameter) => {
   return (

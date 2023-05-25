@@ -1,6 +1,6 @@
 import "./Button.scss";
 
-import { ButtonParameter } from "../../../contracts/Parameter";
+import { ButtonParameter } from "../../../Contracts/Parameter";
 
 export const Button = ({ className, children, onClick }: ButtonParameter) => {
   return (

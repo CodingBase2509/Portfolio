@@ -1,6 +1,6 @@
 import "./Services.scss";
 
-import { BaseParameter } from "../../contracts/Parameter";
+import { BaseParameter } from "../../Contracts/Parameter";
 import MainHeader from "../Shared/Text Blocks/MainHeader";
 import SecondaryHeader from "../Shared/Text Blocks/SecondaryHeader";
 

@@ -1,6 +1,6 @@
 import "./Card.scss";
-import { BaseParameter } from "../../../contracts/Parameter";
-import SerivceItem from "../../../contracts/ServiceItem";
+import { BaseParameter } from "../../../Contracts/Parameter";
+import SerivceItem from "../../../Contracts/ServiceItem";
 
 interface ServiceCardParameter extends BaseParameter {
   serviceItem: SerivceItem;

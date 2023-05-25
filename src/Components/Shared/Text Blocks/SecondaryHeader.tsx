@@ -1,4 +1,4 @@
-import { FullChildParameter } from "../../../contracts/Parameter";
+import { FullChildParameter } from "../../../Contracts/Parameter";
 import "./Header.scss";
 
 const SecondaryHeader = ({ className, children }: FullChildParameter) => {

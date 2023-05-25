@@ -1,4 +1,4 @@
-import SerivceItem from "../contracts/ServiceItem";
+import SerivceItem from "../Contracts/ServiceItem";
 
 export const serviceItems: Array<SerivceItem> = [
   {
