@@ -1,8 +1,13 @@
 import "./Card.scss";
 import { BaseParameter } from "../../../contracts/Parameter";
+import SerivceItem from "../../../contracts/ServiceItem";
 
-export const Card = ({ className }: BaseParameter) => {
-  return <div></div>;
+interface ServiceCardParameter extends BaseParameter {
+  serviceItem: SerivceItem;
+}
+
+export const Card = ({ className, serviceItem }: ServiceCardParameter) => {
+  return <div className={className}></div>;
 };
 
 export default Card;
