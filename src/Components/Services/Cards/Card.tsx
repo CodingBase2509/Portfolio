@@ -7,7 +7,16 @@ interface ServiceCardParameter extends BaseParameter {
 }
 
 export const Card = ({ className, serviceItem }: ServiceCardParameter) => {
-  return <div className={className}></div>;
+  return (
+    <div className={className}>
+      {serviceItem.imageComponent()}
+      <title>{serviceItem.title}</title>
+      <article>{serviceItem.text}</article>
+      <span>
+        <a>{serviceItem.navLink}</a>
+      </span>
+    </div>
+  );
 };
 
 export default Card;
