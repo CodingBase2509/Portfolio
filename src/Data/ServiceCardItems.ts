@@ -1,28 +1,32 @@
 import SerivceItem from "../Contracts/ServiceItem";
+import Data from "../Components/Services/Cards/Images/Data";
+import Mobile from "../Components/Services/Cards/Images/Mobile";
+import WebDesign from "../Components/Services/Cards/Images/WebDesign";
+import WebDev from "../Components/Services/Cards/Images/WebDev";
 
 export const serviceItems: Array<SerivceItem> = [
   {
     title: "Web Design",
     text: "",
-    image: null,
+    imageComponent: WebDesign,
     navLink: "",
   },
   {
-    title: "Web Design",
+    title: "Web Development",
     text: "",
-    image: null,
+    imageComponent: WebDev,
     navLink: "",
   },
   {
-    title: "Web Design",
+    title: "App Development",
     text: "",
-    image: null,
+    imageComponent: Mobile,
     navLink: "",
   },
   {
-    title: "Web Design",
+    title: "Backend Development",
     text: "",
-    image: null,
+    imageComponent: Data,
     navLink: "",
   },
 ];
