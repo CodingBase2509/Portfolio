@@ -1,9 +1,9 @@
 import "./LandingPage.scss";
-import { BaseParameter } from "../../../contracts/Parameter";
-import MainHeader from "../../Elements/Text Blocks/MainHeader";
-import SecondaryHeader from "../../Elements/Text Blocks/SecondaryHeader";
-import ProfileImage from "../../Elements/ProfileImage/ProfileImage";
-import { FilledButton, OutlinedButton } from "../../Elements/Buttons/Button";
+import { BaseParameter } from "../../contracts/Parameter";
+import MainHeader from "../Shared/Text Blocks/MainHeader";
+import SecondaryHeader from "../Shared/Text Blocks/SecondaryHeader";
+import ProfileImage from "./ProfileImage/ProfileImage";
+import { FilledButton, OutlinedButton } from "../Shared/Buttons/Button";
 
 import { MouseEvent } from "react";
 

@@ -1,13 +1,13 @@
 import logoFD from "/logoFD.svg";
 import "./Header.scss";
 
-import { navItems } from "../../../Data/NavBarItems";
+import { navItems } from "../../Data/NavBarItems";
 
 import NavBar from "../NavBar/NavBar";
-import Xing from "../../Elements/SocialMedia/Xing";
-import GitHub from "../../Elements/SocialMedia/Github";
-import LinkedIn from "../../Elements/SocialMedia/LinkedIn";
-import Mail from "../../Elements/SocialMedia/Mail";
+import Xing from "../Shared/SocialMedia/Xing";
+import GitHub from "../Shared/SocialMedia/Github";
+import LinkedIn from "../Shared/SocialMedia/LinkedIn";
+import Mail from "../Shared/SocialMedia/Mail";
 
 const Header = () => {
   return (
