@@ -9,10 +9,10 @@ import Card from "./Cards/Card";
 
 const Services = ({ className }: BaseParameter) => {
   return (
-    <section className={className}>
+    <section className={className + " " + "services"}>
       <SecondaryHeader>My Services</SecondaryHeader>
       <MainHeader>What I Do</MainHeader>
-      <div>
+      <div className="card-section">
         {serviceItems.map((item, index) => (
           <Card key={index} serviceItem={item} />
         ))}

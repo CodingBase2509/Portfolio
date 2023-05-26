@@ -8,13 +8,15 @@ interface ServiceCardParameter extends BaseParameter {
 
 export const Card = ({ className, serviceItem }: ServiceCardParameter) => {
   return (
-    <div className={className}>
+    <div className={className + " " + "card"}>
       {serviceItem.imageComponent()}
-      <title>{serviceItem.title}</title>
-      <article>{serviceItem.text}</article>
-      <span>
-        <a>{serviceItem.navLink}</a>
-      </span>
+      <div className="card-text-container">
+        <h3 className="card-title">{serviceItem.title}</h3>
+        <article className="card-text">{serviceItem.text}</article>
+        <span className="card-link">
+          <a>{serviceItem.navLink}</a>
+        </span>
+      </div>
     </div>
   );
 };
