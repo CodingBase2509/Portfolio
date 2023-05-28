@@ -7,18 +7,18 @@
 
   border: 0.1rem solid $primary;
   border-radius: 1rem;
-  width: 18em;
+  width: 18vw;
   height: auto;
 
   img {
-    margin: 1rem 1rem;
+    margin: 2vw 2vw;
     height: 8rem;
     width: auto;
   }
 }
 
 .card-text-container {
-  margin: 0 1rem;
+  margin: 0 1vw;
   display: block;
 }
 
@@ -28,4 +28,17 @@
 
 .card-text {
   margin: 1rem 0;
+}
+
+@media #{$media-tablet} {
+  .card {
+    width: min(100%, 18rem);
+    justify-self: center;
+  }
+}
+
+@media #{$media-phone} {
+  .card {
+    width: 90%;
+  }
 }

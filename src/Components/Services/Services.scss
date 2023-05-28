@@ -1,9 +1,25 @@
 @import "/src/variables.scss";
 
+.service-container {
+  background-color: $bg-dark;
+}
+
 .card-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 6rem 0;
+
+  @media #{$media-tablet} {
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+
+    margin: 6vw;
+  }
+
+  @media #{$media-phone} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

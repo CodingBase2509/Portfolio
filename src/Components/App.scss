@@ -4,12 +4,17 @@
 //   outline: 2px dotted red;
 // }
 
-.mainpage {
+.section {
   margin: 3rem 5rem;
 }
 
+.data-section {
+  margin-top: 6rem;
+  padding: 3rem 0;
+}
+
 @media #{$media-tablet} {
-  .mainpage {
+  .section {
     margin: 3rem 2rem;
   }
 }
