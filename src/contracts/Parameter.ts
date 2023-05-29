@@ -15,3 +15,8 @@ export interface FullChildParameter extends BaseParameter {
 export interface ButtonParameter extends FullChildParameter {
   onClick: MouseEventHandler<HTMLButtonElement>;
 }
+
+export interface SectionParameter extends FullChildParameter {
+  secondaryHeader: string;
+  mainHeader: string;
+}

@@ -9,8 +9,8 @@ const App = () => {
     <>
       <Header />
       <main className="mainpage">
-        <LandingPage className="section" />
-        <Services className="section data-section" />
+        <LandingPage className="app-section" />
+        <Services className="app-section" />
       </main>
     </>
   );
