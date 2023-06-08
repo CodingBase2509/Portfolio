@@ -2,6 +2,7 @@ import "./Skills.scss";
 
 import { BaseParameter } from "../../Contracts/Parameter";
 import Section from "../Shared/Section";
+import Indicator from "./Indicator/Indicator";
 
 const Skills = ({ className }: BaseParameter) => {
   return (
@@ -10,7 +11,7 @@ const Skills = ({ className }: BaseParameter) => {
       secondaryHeader="About Me"
       mainHeader="Skills"
     >
-      {}
+      <Indicator id={1} value={5}></Indicator>
     </Section>
   );
 };

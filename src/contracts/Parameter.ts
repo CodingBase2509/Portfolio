@@ -20,3 +20,8 @@ export interface SectionParameter extends FullChildParameter {
   secondaryHeader: string;
   mainHeader: string;
 }
+
+export interface IndicatorParameter extends BaseParameter {
+  id: number;
+  value: number;
+}

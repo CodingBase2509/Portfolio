@@ -1,0 +1,20 @@
+.progressbar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+.progressbar {
+  height: 100%;
+  //background-color: #3498db;
+  background: repeating-linear-gradient(
+    -45deg,
+    #28d6d6,
+    #28d6d6 30px,
+    #13a5a5 30px,
+    #13a5a5 60px
+  );
+  border-radius: 12px;
+  width: 0%;
+}

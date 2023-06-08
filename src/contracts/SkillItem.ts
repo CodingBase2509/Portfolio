@@ -1,5 +1,5 @@
 export default interface SkillItem {
   skillName: string;
-  icon: string | ImageBitmap;
+  icon: string;
   knowledge: number;
 }
