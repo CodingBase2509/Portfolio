@@ -1,29 +1,29 @@
-import NavigationItem from "../Contracts/NavigationItem";
+import NavigationItem from '../Contracts/NavigationItem';
 
 export const navItems: Array<NavigationItem> = [
   {
-    name: "Home",
-    link: "",
+    name: 'Home',
+    link: '',
     position: 1,
   },
   {
-    name: "About Me",
-    link: "",
+    name: 'About Me',
+    link: '',
     position: 2,
   },
   {
-    name: "Services",
-    link: "",
+    name: 'Services',
+    link: '',
     position: 3,
   },
   {
-    name: "Portfolio",
-    link: "",
+    name: 'Portfolio',
+    link: '',
     position: 4,
   },
   {
-    name: "Contact",
-    link: "",
+    name: 'Contact',
+    link: '',
     position: 5,
   },
 ];
