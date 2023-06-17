@@ -1,0 +1,18 @@
+@import "/src/variables.scss";
+
+.line {
+    display: block;
+    width: auto;
+    height: 6px;
+    margin: 0 5rem;
+
+    background-color: #1D1C1C;
+    border-radius: 5px;
+    box-shadow: inset 0px 3px 5px #343434;
+}
+
+@media #{$media-tablet} {
+    .line {
+        margin: 0 2rem;
+    }
+}
