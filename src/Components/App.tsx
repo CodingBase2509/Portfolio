@@ -11,8 +11,8 @@ const App = () => {
       <Header />
       <main className="mainpage">
         <LandingPage className="app-section" />
-        <Services />
-        <Skills />
+        <Services className="app-section" />
+        <Skills className="app-section" />
       </main>
     </>
   );

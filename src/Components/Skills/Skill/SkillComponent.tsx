@@ -3,9 +3,9 @@ import { SkillComponentParameter } from '../../../Contracts/Parameter';
 import Indicator from '../Indicator/Indicator';
 import { Icon } from '@iconify/react';
 
-const SkillComponent = ({ index, skill }: SkillComponentParameter) => {
+const SkillComponent = ({ index, skill, className }: SkillComponentParameter) => {
   return (
-    <div className="component">
+    <div className={className + ' component'}>
       <div className="skill-info">
         <Icon icon={skill.icon} width="2.5rem" />
         <span className="skill-name">{skill.skillName}</span>

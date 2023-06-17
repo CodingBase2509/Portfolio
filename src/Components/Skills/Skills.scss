@@ -1,1 +1,25 @@
 @import "/src/variables.scss";
+
+.skill-section {
+    display: grid;
+    grid-template: "left right";
+    column-gap: 5rem;
+    row-gap: 2rem;
+
+    margin: 2rem 0;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+}
+
+@media #{$media-tablet-small}, #{media-phone} {
+    .skill-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
