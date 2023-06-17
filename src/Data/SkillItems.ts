@@ -16,4 +16,34 @@ export const SkillItems: Array<SkillItem> = [
     icon: 'devicon:typescript',
     skillName: 'Typescript',
   },
+  {
+    knowledge: 5,
+    icon: 'logos:docker-icon',
+    skillName: 'Docker',
+  },
+  {
+    knowledge: 7,
+    icon: 'devicon:csharp',
+    skillName: 'C#',
+  },
+  {
+    knowledge: 5,
+    icon: 'devicon:typescript',
+    skillName: 'Typescript',
+  },
+  {
+    knowledge: 5,
+    icon: 'logos:docker-icon',
+    skillName: 'Docker',
+  },
+  {
+    knowledge: 7,
+    icon: 'devicon:csharp',
+    skillName: 'C#',
+  },
+  {
+    knowledge: 5,
+    icon: 'devicon:typescript',
+    skillName: 'Typescript',
+  },
 ];
