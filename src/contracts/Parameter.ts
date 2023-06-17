@@ -1,4 +1,5 @@
-import { MouseEventHandler, ReactNode } from "react";
+import { MouseEventHandler, ReactNode } from 'react';
+import SkillItem from './SkillItem';
 
 export interface BaseParameter {
   className?: string;
@@ -24,4 +25,9 @@ export interface SectionParameter extends FullChildParameter {
 export interface IndicatorParameter extends BaseParameter {
   id: number;
   value: number;
+}
+
+export interface SkillComponentParameter extends BaseParameter {
+  index: number;
+  skill: SkillItem;
 }

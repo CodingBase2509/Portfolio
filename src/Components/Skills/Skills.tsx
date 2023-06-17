@@ -1,17 +1,16 @@
-import "./Skills.scss";
+import './Skills.scss';
 
-import { BaseParameter } from "../../Contracts/Parameter";
-import Section from "../Shared/Section";
-import Indicator from "./Indicator/Indicator";
+import { BaseParameter } from '../../Contracts/Parameter';
+import Section from '../Shared/Section';
+import SkillComponent from './Skill/SkillComponent';
+import { SkillItems } from '../../Data/SkillItems';
 
 const Skills = ({ className }: BaseParameter) => {
   return (
-    <Section
-      className={className + " skills"}
-      secondaryHeader="About Me"
-      mainHeader="Skills"
-    >
-      <Indicator id={1} value={5}></Indicator>
+    <Section className={className + ' skills'} secondaryHeader="About Me" mainHeader="Skills">
+      {SkillItems.map((item, index) => (
+        <SkillComponent key={index} index={index} skill={item} />
+      ))}
     </Section>
   );
 };

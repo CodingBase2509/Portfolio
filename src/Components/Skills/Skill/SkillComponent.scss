@@ -1,0 +1,21 @@
+@import "/src/variables.scss";
+
+
+.component {
+    width: 40%;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+
+    * {
+        display: inline;
+    }
+
+    .skill-name {
+        font-size: x-large;
+        padding-left: 1rem;
+    }
+}
