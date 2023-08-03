@@ -5,8 +5,12 @@ import './Resume.scss';
 const Resume = ({ className }: BaseParameter) => {
   return (
     <Section className={className + ' resume'} mainHeader="About me" secondaryHeader="Resume">
-      <div className="work-experience"></div>
-      <div className="education"></div>
+      <div className="switch">
+        <span>Work Experience</span>
+        <span>Education</span>
+      </div>
+      <article className="work-experience"></article>
+      <article className="education"></article>
     </Section>
   );
 };
