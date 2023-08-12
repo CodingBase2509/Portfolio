@@ -1,0 +1,30 @@
+.switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14rem;
+}
+
+.header-span {
+    width: 100%;
+}
+
+.resume-header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-size: 1.8em;
+}
+
+.resume-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.work-experience, .education {
+    margin:  1rem 0;
+}

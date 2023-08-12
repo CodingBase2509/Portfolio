@@ -1,0 +1,20 @@
+@import "/src/variables.scss";
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.switch {
+    margin-top: 2rem;
+}
+
+.resume-section {
+    margin: 1rem 0;
+}
+
+.title {
+    color: $primary;
+    font-size: 1.4em;
+}

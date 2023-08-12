@@ -1,5 +1,6 @@
 import { MouseEventHandler, ReactNode } from 'react';
 import SkillItem from './SkillItem';
+import ResumeItem from './ResumeItem';
 
 export interface BaseParameter {
   className?: string;
@@ -30,4 +31,9 @@ export interface IndicatorParameter extends BaseParameter {
 export interface SkillComponentParameter extends BaseParameter {
   index: number;
   skill: SkillItem;
+}
+
+export interface ResumeSectionParameter extends BaseParameter {
+  item: ResumeItem;
+  indicator: boolean;
 }
