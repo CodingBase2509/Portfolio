@@ -1,17 +1,12 @@
-import "./Section.scss";
+import './Section.scss';
 
-import { SectionParameter } from "../../Contracts/Parameter";
-import MainHeader from "./Text Blocks/MainHeader";
-import SecondaryHeader from "./Text Blocks/SecondaryHeader";
+import { SectionParameter } from '../../Contracts/Parameter';
+import MainHeader from './Text Blocks/MainHeader';
+import SecondaryHeader from './Text Blocks/SecondaryHeader';
 
-const Section = ({
-  className,
-  secondaryHeader,
-  mainHeader,
-  children,
-}: SectionParameter) => {
+const Section = ({ className, secondaryHeader, mainHeader, children }: SectionParameter) => {
   return (
-    <section className={className + " " + "section"}>
+    <section className={className + ' ' + 'section'}>
       <SecondaryHeader>{secondaryHeader}</SecondaryHeader>
       <MainHeader>{mainHeader}</MainHeader>
       {children}

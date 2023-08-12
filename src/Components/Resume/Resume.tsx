@@ -6,7 +6,7 @@ import ResumeSection from './ResumeSection/ResumeSection';
 
 const Resume = ({ className }: BaseParameter) => {
   return (
-    <Section className={className + ' resume'} mainHeader="About me" secondaryHeader="Resume">
+    <Section className={className + ' resume'} mainHeader="Resume" secondaryHeader="About me">
       <div className="switch">
         <span className="header-span">
           <h2 className="resume-header-section">Work Experience</h2>

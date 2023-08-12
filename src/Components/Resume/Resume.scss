@@ -1,3 +1,5 @@
+@import "/src/variables.scss";
+
 .switch {
     display: flex;
     flex-direction: row;
@@ -28,3 +30,6 @@
 .work-experience, .education {
     margin:  1rem 0;
 }
+
+// @media #{$media-tablet}, #{$media-phone} {
+// }
