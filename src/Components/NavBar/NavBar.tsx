@@ -1,23 +1,17 @@
-import "./NavBar.scss";
+import './NavBar.scss';
 
-import NavigationItem from "../../Contracts/NavigationItem";
+import NavigationItem from '../../Contracts/NavigationItem';
 
-const NavBar = ({
-  navItems,
-  className,
-}: {
-  navItems: NavigationItem[];
-  className?: string;
-}) => {
+const NavBar = ({ navItems, className }: { navItems: NavigationItem[]; className?: string }) => {
   const openMenu = () => {
-    const menu = document.getElementById("nav-menu") as HTMLElement;
-    menu.classList.toggle("open");
-    const menuTop = document.getElementById("nav-menu-top") as HTMLElement;
-    menuTop.classList.toggle("open");
+    const menu = document.getElementById('nav-menu') as HTMLElement;
+    menu.classList.toggle('open');
+    const menuTop = document.getElementById('nav-menu-top') as HTMLElement;
+    menuTop.classList.toggle('open');
   };
 
   return (
-    <nav className={className + " " + "nav-menu-top"}>
+    <nav className={className + ' ' + 'nav-menu-top'}>
       <nav className="nav-menu" id="nav-menu">
         <ul className="nav-list">
           {navItems
